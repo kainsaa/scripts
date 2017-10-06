@@ -1,0 +1,6 @@
+alias upserver="python3 manage.py runserver"
+alias upvirtual="source bin/activate"
+alias migrate="python3 manage.py migrate"
+alias migraciones="python3 manage.py makemigrations"
+alias pinga="ping -c2 www.google.cl"
+alias speedtest="python3 $HOME/.speedtest.py"

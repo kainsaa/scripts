@@ -1,0 +1,15 @@
+NetworkManager = es un programa que proporciona a los sistemas la detección y configuración automática
+para conectarse a la red. Las funcionalidades de NetworkManager son útiles tanto para redes
+inalámbricas como por cable.
+
+nmcli = herramienta para controlar NetworkManager
+# nm-connection-editor (network connection editor for NetworkManager, se necesita entorno grafico)
+# nmtui (Text User Interface for controlling NetworkManager)
+
+
+##comandos###
+
+# ls /sys/class/net - (muestra los dispositivos  de Red en el sistema)
+# nmcli dev status (muestra estados de las conexiones de NetworkManager)
+
+# nmcli con show 
